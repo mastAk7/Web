@@ -1,0 +1,6 @@
+the only difference:
+
+instead of using react-script library for rendering the function on the html file, the main.jsx or index.js file is directly mentioned using a script tag in the html file
+
+
+** fucntions being exported should have the first letter capitalized

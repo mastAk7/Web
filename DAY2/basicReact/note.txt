@@ -1,0 +1,16 @@
+Functioning of react through basic react modules
+
+1. src/index.js is the main file which gets displayed (node functionality)
+
+2. import App from './App' goes to src/App.js where it returns a function App
+
+3. the function app returns the html content written it the return block 
+
+4. const root is a react dom object created through react-dom library
+
+5. this library gets an element 'root' from public/index.html
+
+6. the function App is rendered to the html page and hence the html code stored is returned to the webpage
+
+
+** capitalize function file names and fucntion names too
