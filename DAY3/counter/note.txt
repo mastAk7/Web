@@ -1,0 +1,5 @@
+hooks are used for manipulating the value of some data type
+
+cannot be done like typical js -> value will change but not the user interface
+
+to change the user interface hooks are used

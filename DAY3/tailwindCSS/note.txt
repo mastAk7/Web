@@ -1,0 +1,14 @@
+https://tailblocks.cc
+https://play.tailwindcss.com
+
+to run tailwindcss, 
+https://tailwindcss.com/docs/installation/tailwind-cli
+
+1: npm install tailwindcss @tailwindcss/cli
+2: src/input.css -> @import "tailwindcss";
+3. package.json -> 
+"scripts": {
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  }
+4. npm run watch
+5. src/index.hmtl -> <link href="./output.css" rel="stylesheet">

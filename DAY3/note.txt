@@ -1,0 +1,20 @@
+initiate:
+npx create-react-app project-name //normie
+
+to start:
+npm run start
+
+to build: 
+npm run build
+
+
+through vite: // better
+npm create vite@latest
+enter name
+select react
+select js 
+
+npm i
+npm run dev
+
+devio.com for tailwind components

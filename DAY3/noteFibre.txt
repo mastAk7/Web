@@ -1,0 +1,4 @@
+react fibre : acdlite github -> browser
+
+instead of updating user interface over and over again, react team decided to chunk, for example, 2-3 instructions and then refresh user interface all together
+to counter rapid refreshment of react
