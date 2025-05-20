@@ -16,3 +16,6 @@
 - Learned about react fibres 
 - Learned and implemented hooks, state and counter
 - Learned using tailwind CSS and hence made a simple vite react project implementing it
+
+## Day 4
+- Tried to implement a project using tailwindcss but failed to do so because error coming while installing tailwind with vite
