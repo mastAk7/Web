@@ -19,3 +19,6 @@
 
 ## Day 4
 - Tried to implement a project using tailwindcss but failed to do so because error coming while installing tailwind with vite
+
+## Day 5
+- Implemented background changer using onclick, hooks, counter in vite react project and tailwind css
