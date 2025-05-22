@@ -22,3 +22,9 @@
 
 ## Day 5
 - Implemented background changer using onclick, hooks, counter in vite react project and tailwind css
+
+## Day 6
+- Learned about different hooks : useId, useCallback, useEffect, useRef
+- Learned making and implementing custom hooks
+- Made a project, Password Generator, which generates password in real time with toggle options like characters, numbers, length. Also 'Copy Password' feature added
+- Made a project, Currency Change, which fetches data from an open source API and hence user can convert an amount of a particular currency to a different currency
