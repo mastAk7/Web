@@ -28,3 +28,9 @@
 - Learned making and implementing custom hooks
 - Made a project, Password Generator, which generates password in real time with toggle options like characters, numbers, length. Also 'Copy Password' feature added
 - Made a project, Currency Change, which fetches data from an open source API and hence user can convert an amount of a particular currency to a different currency
+
+## Day 7
+- Learned using React Router, Handling apis using route and loader, handling params and hence implemented a simple website project
+- The website has various end points and hence can toggle between easily
+- It also uses a github api to load a user's github info using loader for better optimization
+- It has an 'user' endpoint for handling params
