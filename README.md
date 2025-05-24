@@ -34,3 +34,7 @@
 - The website has various end points and hence can toggle between easily
 - It also uses a github api to load a user's github info using loader for better optimization
 - It has an 'user' endpoint for handling params
+
+## Day 8
+- Learned about the requirement of Context API, what it is and various ways in which it is implemented.
+- Implemented basic context API using inbuilt useContext react library
