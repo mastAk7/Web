@@ -38,3 +38,7 @@
 ## Day 8
 - Learned about the requirement of Context API, what it is and various ways in which it is implemented.
 - Implemented basic context API using inbuilt useContext react library
+
+## Day 9
+- Implemented a simple project revising the concept of router, useState, useEffect and made a theme toggler and navigator within the project 
+- Learned basics of typeScript
