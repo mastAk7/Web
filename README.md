@@ -42,3 +42,6 @@
 ## Day 9
 - Implemented a simple project revising the concept of router, useState, useEffect and made a theme toggler and navigator within the project 
 - Learned basics of typeScript
+
+## Day 10
+- Learned intermediate typescript

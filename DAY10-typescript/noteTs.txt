@@ -1,0 +1,11 @@
+npm i -D typescript
+or
+npm i -g typescript
+
+npm init -y
+
+npx tsc --init
+
+tsc fileName.ts
+or for multiple files:
+npx tsc -b
