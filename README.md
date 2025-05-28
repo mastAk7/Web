@@ -45,3 +45,6 @@
 
 ## Day 10
 - Learned intermediate typescript
+
+## Day 11 
+- Implemented a simple project switching light and dark mode using tailwindcss in vite+react project using contextAPI and toggler
