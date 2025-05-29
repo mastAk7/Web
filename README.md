@@ -48,3 +48,6 @@
 
 ## Day 11 
 - Implemented a simple project switching light and dark mode using tailwindcss in vite+react project using contextAPI and toggler
+
+## Day 12 
+- Implemented a simple todo app project using contextAPI and local storage (js)
