@@ -51,3 +51,14 @@
 
 ## Day 12 
 - Implemented a simple todo app project using contextAPI and local storage (js)
+
+---
+
+## Note
+- Was inactive due to critical health conditions and hence this personal break. 
+- Meanwhile, I created a project for Vardhman Air Solutions and got a certification for it.
+- I learned PostgreSQL and using it through Prisma ORL.
+- Also created personal React Projects for practice.
+- Will try my best to be consistant throughout this journey and not to repeat such a thing.
+
+---
