@@ -52,11 +52,17 @@
 ## Day 12 
 - Implemented a simple todo app project using contextAPI and local storage (js)
 
+## Day 13
+- From quite a lot of days, I have been working on a new project of mine inspired from asana, trello, etc.
+- Till now, I have developed the authentication system, organisation routes and logic, and almost all database schemas and relations required.
+- I am keeping in mind the production level code structure, modularity and scality using dynmatic routing and folders.
+- The backend is to be made using nodeJs, expressJs, and required libraries and frameworks like jsonwebtoken, bcryptjs, dotenv, cookie-parser (as of now); the frontend using reactJs and related frameworks; database I am using is postgreSQL and Prisma ORM.
+
 ---
 
 ## Note
 - Was inactive due to critical health conditions and hence this personal break. 
-- Meanwhile, I created a project for Vardhman Air Solutions and got a certification for it.
+- Meanwhile, I created a project for Vardhman Air Solutions and got a certification for it (defenceCompany repo).
 - I learned PostgreSQL and using it through Prisma ORL.
 - Also created personal React Projects for practice.
 - Will try my best to be consistant throughout this journey and not to repeat such a thing.

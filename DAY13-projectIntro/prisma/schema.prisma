@@ -1,0 +1,107 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              Int           @id @default(autoincrement())
+  name            String
+  email           String        @unique
+  password        String
+  createdAt       DateTime      @default(now())
+  memberships     Membership[]
+  tasksAssigned   Task[]        @relation("TaskAssignments")
+}
+
+model Organization {
+  id              Int           @id @default(autoincrement())
+  name            String
+  createdAt       DateTime      @default(now())
+  memberships     Membership[]
+  projects        Project[]
+}
+
+model Membership {
+  id              Int           @id @default(autoincrement())
+
+  user            User          @relation(fields: [userId], references: [id])
+  userId          Int
+
+  organization    Organization  @relation(fields: [organizationId], references: [id])
+  organizationId  Int
+
+  role            Role          @default(Member)
+
+  createdAt       DateTime      @default(now())
+
+  @@unique([userId, organizationId])
+}
+
+enum Role {
+  Admin
+  Manager
+  Member
+}
+
+model Project {
+  id              Int           @id @default(autoincrement())
+  name            String
+  description     String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  organization    Organization  @relation(fields: [organizationId], references: [id])
+  organizationId  Int
+
+  boards          Board[]
+}
+
+model Board {
+  id          Int      @id @default(autoincrement())
+  title       String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  project Project @relation(fields: [projectId], references: [id])
+  projectId Int
+
+  columns Column[]
+}
+
+model Column {
+  id          Int      @id @default(autoincrement())
+  title       String
+  order       Int
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  board Board @relation(fields: [boardId], references: [id])
+  boardId Int
+
+  tasks Task[]
+}
+
+model Task {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String?
+  dueDate     DateTime?
+  priority    String? // 1: Low, 2: Medium, 3:
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  column Column @relation(fields: [columnId], references: [id])
+  columnId Int
+
+  assignedTo User[] @relation("TaskAssignments")
+}
