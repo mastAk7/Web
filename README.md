@@ -58,13 +58,21 @@
 - I am keeping in mind the production level code structure, modularity and scality using dynmatic routing and folders.
 - The backend is to be made using nodeJs, expressJs, and required libraries and frameworks like jsonwebtoken, bcryptjs, dotenv, cookie-parser (as of now); the frontend using reactJs and related frameworks; database I am using is postgreSQL and Prisma ORM.
 
+## Day 14
+- Revised basics and stuff like props, hooks (useState, useRef). 
+- Hence made a fully functional todo app including add, delete and update features.
+
 ---
 
-## Note
+## Note 1 (June Inactivity)
 - Was inactive due to critical health conditions and hence this personal break. 
 - Meanwhile, I created a project for Vardhman Air Solutions and got a certification for it (defenceCompany repo).
 - I learned PostgreSQL and using it through Prisma ORL.
 - Also created personal React Projects for practice.
 - Will try my best to be consistant throughout this journey and not to repeat such a thing.
 
+## Note 2 (July Inactivity)
+- Finally landed my first webdev internship in the same defense company (Vardhman Airport Solutions) and hence developed their website from base www.vardhmanairports.com
+- A pretty good experience and hence achieved all that this repo was meant for
+- The days now on would be focused on React and hence would be completing the following three projects for my resume : asana like project; syncode (a collaborative text editor); a basic chatapp to get my hands on web sockets.
 ---
