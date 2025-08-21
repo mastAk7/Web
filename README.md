@@ -62,6 +62,10 @@
 - Revised basics and stuff like props, hooks (useState, useRef). 
 - Hence made a fully functional todo app including add, delete and update features.
 
+## Day 15
+- Participated in a case study comp and hence developed a website from base in MERN stack. The UI is ai generated while the rest of the code and functionality work smooth and simple.
+- The backend is deployed on railway, frontend on vercel and database on mongoDB Atlas.
+- https://quantnova.vercel.app/
 ---
 
 ## Note 1 (June Inactivity)
