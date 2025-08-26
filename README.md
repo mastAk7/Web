@@ -65,7 +65,14 @@
 ## Day 15
 - Participated in a case study comp and hence developed a website from base in MERN stack. The UI is ai generated while the rest of the code and functionality work smooth and simple.
 - The backend is deployed on railway, frontend on vercel and database on mongoDB Atlas.
-- https://quantnova.vercel.app/
+- https://quantnova.vercel.app
+
+## Day 16
+- Created a crazy project which in short summarizes canva, google meet and google docs.
+- Basically coders can collaborately code within the platform in real time.
+- More features include voice chat, messages, etc.
+- For Frontend used React (hosted on vercel), for backend express (hosted on render), for database used postgres and prisma (hosted on supabase), for chatting used socket.io and webRTC for voice chat.
+- Thinking of adding save code with github for saving the code, login/regis using google and similar platforms for the sake of more security and final would be a smoother voice and chat stuff.
 ---
 
 ## Note 1 (June Inactivity)
