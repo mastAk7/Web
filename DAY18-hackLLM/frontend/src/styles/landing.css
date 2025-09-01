@@ -1,0 +1,7 @@
+/* Landing and hero */
+.hero{padding:46px 0}
+.hero-inner{max-width:900px}
+.hero-title{font-size:2rem;margin:0 0 6px;color:#fff}
+.hero-sub{color:var(--muted);max-width:760px}
+
+.panel{padding:28px 0;min-height:40vh}

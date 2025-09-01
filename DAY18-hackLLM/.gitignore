@@ -1,0 +1,60 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# -------------------------
+# Logs & Debug
+# -------------------------
+*.log
+*.out
+*.err
+
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Environment files
+# -------------------------
+.env
+.env.local
+.env.development
+.env.production.local
+.env.test.local
+.env.production
+env.example  # keep only if you don't want to commit it
+
+# -------------------------
+# Project specific
+# -------------------------
+# Ignore local dev/test scripts output
+*.bat
+*.sh
+
+# Keep these if they are necessary (remove from ignore if you want to track them)
+!start_local_dev.sh
+!stop_local_dev.sh
+!render.yaml
+!requirements.txt
+!requirements_sim.txt
+!thi_config.yaml

@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: thi-model-server
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python thi_server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.16
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 8000
+      - key: ENVIRONMENT
+        value: production
+      - key: LOG_LEVEL
+        value: warning
+      - key: ALLOWED_ORIGINS
+        value: https://your-frontend.vercel.app,https://your-backend.railway.app
+    healthCheckPath: /health
+    autoDeploy: true

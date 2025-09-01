@@ -1,0 +1,5 @@
+/* Card and section styles */
+.card{background:linear-gradient(180deg, rgba(255,90,163,0.03), transparent);border:1px solid rgba(255,90,163,0.06);padding:20px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(2,2,4,0.6);margin-bottom:16px}
+.card h2{color:#ffd8ec;margin-top:0}
+.card ul{margin:8px 0 0 18px}
+.card li{margin-bottom:8px}

@@ -80,6 +80,14 @@
 - Simple and bare minimum frontend and backend (in MERN stack completely).
 - The thing I basically learned from this project is integrating an ML model perfectly in it.
 - [quantNova](https://quantnova.vercel.app/)
+
+## Day 18
+- Finally had some tech fun in my life and hence participated in IIIT Delhi fest, Esya'25
+- Went there for having fun but got to know about a crazy hackathon, hackLLM and me and my teammated just locked in.
+- Chose the medium level difficulty challenge (were too majestic for easy and hard was just about aiml). We had to detect hallucinations in ai agents like chatGPT, Claude, etc and hence had to fix it.
+- The next 36 hours were full of caffiene and loved my friends too much. Developed frontend in react (hosted on vercel), backend in express (hosted on railway), database on mongodb atlas. We made two models, the easy one has .62 at the very first try and second one had some bugs and hence .23. Ended up taking it to .56 and hence integrated both into one and then into fastapi and hence hosted on render.
+- We werent able to submit it because of the bad management of the hackathon officials but the process was worth it.
+- Their is some issue in the connectivity of the model and the backend frontend which I would be fixing up real soon.
 ---
 
 ## Note 1 (June Inactivity)

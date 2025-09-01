@@ -1,0 +1,80 @@
+# THI Pipeline Configuration
+# Triangulated Hallucination Index Configuration
+
+# Model configurations
+models:
+  nli:
+    name: "distilbert-base-uncased"
+    max_length: 512
+    batch_size: 8
+    
+  embedding:
+    name: "all-MiniLM-L6-v2"
+    max_length: 256
+    
+  spacy:
+    model: "en_core_web_sm"
+    disable: ["ner", "parser"]  # Only keep what we need
+
+# THI component weights (must sum to 1.0)
+weights:
+  contradiction: 0.35      # NLI contradiction detection
+  support: 0.30           # Evidence support (1 - support_score)
+  instability: 0.15       # Self-consistency over paraphrases
+  speculative: 0.10       # Risky language detection
+  numeric_sanity: 0.10    # Numeric/temporal sanity checks
+
+# Thresholds and parameters
+thresholds:
+  default_binary: 0.5     # Default threshold for binary classification
+  min_threshold: 0.3      # Minimum allowed threshold
+  max_threshold: 0.7      # Maximum allowed threshold
+  
+  risk_levels:
+    low: 0.4              # Low risk threshold
+    medium: 0.7           # Medium risk threshold
+    high: 0.9             # High risk threshold
+
+# Processing parameters
+processing:
+  max_sentences: 100      # Maximum sentences to process
+  max_claim_length: 1000  # Maximum claim length in characters
+  batch_size: 4           # Batch size for processing
+  
+# Evidence retrieval (if using external sources)
+retrieval:
+  enabled: false          # Set to true if using external evidence
+  top_k: 3               # Number of evidence snippets to retrieve
+  min_similarity: 0.3     # Minimum similarity threshold
+  
+# Paraphrase generation
+paraphrase:
+  num_paraphrases: 3      # Number of paraphrases to generate
+  seed: 42                # Random seed for deterministic output
+  
+# Logging and debugging
+logging:
+  level: "INFO"           # Log level (DEBUG, INFO, WARNING, ERROR)
+  save_results: true      # Save analysis results to file
+  output_dir: "results"   # Directory for output files
+  
+# Performance optimization
+performance:
+  use_gpu: true           # Use GPU if available
+  max_workers: 4          # Maximum worker processes
+  cache_models: true      # Cache loaded models in memory
+  
+# API server settings
+server:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true
+  workers: 1
+  timeout: 300            # Request timeout in seconds
+  
+# CORS settings for MERN frontend
+cors:
+  allow_origins: ["*"]    # Configure properly for production
+  allow_credentials: true
+  allow_methods: ["*"]
+  allow_headers: ["*"]
