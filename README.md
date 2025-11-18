@@ -101,4 +101,13 @@
 - Finally landed my first webdev internship in the same defense company (Vardhman Airport Solutions) and hence developed their website from base www.vardhmanairports.com
 - A pretty good experience and hence achieved all that this repo was meant for
 - The days now on would be focused on React and hence would be completing the following three projects for my resume : asana like project; syncode (a collaborative text editor); a basic chatapp to get my hands on web sockets.
+
+## Note 3 (Sep-Nov Inactivity)
+- I cannot be practically inactive in terms of webdev. 
+- Created so many projects in the meanwhile, learned too much.
+- Almost all my projects in github are web development projects so please refer.
+- What am i gonna do next? Build many many small projects and master the art of react and express.
+- gonna learn in depth about typescript and js
+- dive into web3 and next
+
 ---
